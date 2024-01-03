@@ -1,1 +1,55 @@
-<!--all tags-->
+/*All HTML documents must start with a <!DOCTYPE> declaration.*/
+<!DOCTYPE html>
+<html>
+<body>
+
+/*this is a comment */
+/*this comments are not displayed in the browser*/
+<p>This is a paragraph.</p>
+
+
+/*An abbreviation is marked up as follows:*/
+<p>The <abbr title="World Health Organization">WHO</abbr> was founded in 1948.</p>
+
+/* <abbr> can also be used with <dfn> to define an abbreviation:*/
+    <p><dfn><abbr title="Cascading Style Sheets">CSS</abbr>
+    </dfn> is a language that describes the style of an HTML document.</p>
+    
+/*Contact information for Example.com*/
+    <address>
+    Written by <a href="mailto:webmaster@example.com">Jon Doe</a>.<br>
+    Visit us at:<br>
+    Example.com<br>
+    Box 564, Disneyland<br>
+    USA
+    </address>
+
+    /*If you want to embed a video, use the <video> tag*/
+        <video width="320" height="240" controls>
+            <source src="movie.mp4" type="video/mp4">
+            <source src="movie.ogg" type="video/ogg">
+            Your browser does not support the video tag.
+          </video>
+/*If you want to embed audio, use the <audio> tag:*/
+    <audio controls>
+        <source src="horse.ogg" type="audio/ogg">
+        <source src="horse.mp3" type="audio/mpeg">
+        Your browser does not support the audio tag.
+      </audio>
+
+/*To embed objects, you can use both the <embed> tag and the <object> tags:*/
+   
+    /* Embed a document with the <embed> element:*/
+        <embed src="snippet.html">
+    /*Embed a picture with the <embed> element:*/
+        <embed src="pic_trulli.jpg">
+    /*Embed a document with the <object> element:*/
+        <object data="snippet.html"></object>
+    /*Embed a picture with the <object> element:*/ 
+        <object data="pic_trulli.jpg"></object>     
+    
+
+
+
+</body>
+</html>
